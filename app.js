@@ -1,8 +1,8 @@
 function metricConverter([arg1,arg2,arg3]){
-  size = parseFloat(arg1);
-  sizeUpdate = 0;
-  metric = arg2;
-  toMetric = arg3;
+  let size = parseFloat(arg1);
+  let sizeUpdate = 0;
+  let metric = arg2;
+  let toMetric = arg3;
 
   if (metric === 'km'){
     sizeUpdate = size / 0.001;
