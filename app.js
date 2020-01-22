@@ -10,6 +10,9 @@ function metricConverter([arg1,arg2,arg3]){
   else if (metric === 'cm'){
     sizeUpdate = size / 100;
   }
+  else if (metric === 'm'){
+    sizeUpdate = size / 1;
+  }
   else if (metric === 'mm'){
     sizeUpdate = size / 1000;
   }
